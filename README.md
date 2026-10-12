@@ -6,17 +6,17 @@ Arquivo único de todos os sites de clientes. Cada cliente vive num diretório p
 
 | Cliente | Site | Status |
 |---|---|---|
-| **NK Showroom** (ótica — Serra Negra/Amparo/SP) | [tiagopolidoro.github.io/sites/nk-showroom/](https://tiagopolidoro.github.io/sites/nk-showroom/) | Arquivado |
-| **VetMais** (veterinária — Pedreira/SP) | [tiagopolidoro.github.io/sites/vetmais/](https://tiagopolidoro.github.io/sites/vetmais/) | Arquivado |
+| **NK Showroom** (ótica — Serra Negra/Amparo/SP) | [tiagopolidoro.github.io/sites/nk-showroom/](https://tiagopolidoro.github.io/sites/nk-showroom/) | No ar |
+| **VetMais** (veterinária — Pedreira/SP) | [tiagopolidoro.github.io/sites/vetmais/](https://tiagopolidoro.github.io/sites/vetmais/) | No ar |
 | **Use SN** (óculos + perfumes — Pedreira/SP) | [tiagopolidoro.github.io/sites/use-sn/](https://tiagopolidoro.github.io/sites/use-sn/) | No ar |
 | **Espaço Saúde Marcela Domingues** (fisioterapia + pilates — Pedreira/SP) | [tiagopolidoro.github.io/sites/espaco-saude-marcela/](https://tiagopolidoro.github.io/sites/espaco-saude-marcela/) | No ar |
 | **akqui** (óculos + relógios — Pedreira/SP) | [tiagopolidoro.github.io/sites/akqui/](https://tiagopolidoro.github.io/sites/akqui/) | No ar |
 | **Espaço Renove** (pilates + fisioterapia — Pedreira/SP) | [tiagopolidoro.github.io/sites/espaco-renove/](https://tiagopolidoro.github.io/sites/espaco-renove/) | No ar |
 | **Centro Oftalmológico Jaguariúna** (oftalmologia — Jaguariúna/SP) | [tiagopolidoro.github.io/sites/centro-oftalmologico-jaguariuna/](https://tiagopolidoro.github.io/sites/centro-oftalmologico-jaguariuna/) | No ar |
 | **Julles Cabeleireiro** (cabeleireiro — Pedreira/SP) | [tiagopolidoro.github.io/sites/julles-cabeleireiro/](https://tiagopolidoro.github.io/sites/julles-cabeleireiro/) | No ar |
-| [Espaço Villa do Corpo](./espaco-villa-do-corpo/) — Pilates e natação em um só espaço no Jardim do Triunfo, Pedreira-SP. Nota 4,8 no Google. |
-| [Vitta Core Saúde Integrativa](./vitta-core-saude-integrativa/) — Fisioterapia, reabilitação e pilates no Centro de Pedreira-SP. Nota 5,0 no Google. |
 | **Studio de Pilates Paula Melo** (pilates — Pedreira/SP) | [tiagopolidoro.github.io/sites/studio-pilates-paula-melo/](https://tiagopolidoro.github.io/sites/studio-pilates-paula-melo/) | No ar |
+| **Vitta Core Saúde Integrativa** (fisioterapia — Pedreira/SP) | [tiagopolidoro.github.io/sites/vitta-core-saude-integrativa/](https://tiagopolidoro.github.io/sites/vitta-core-saude-integrativa/) | No ar |
+| **Espaço Villa do Corpo** (pilates + natação — Pedreira/SP) | [tiagopolidoro.github.io/sites/espaco-villa-do-corpo/](https://tiagopolidoro.github.io/sites/espaco-villa-do-corpo/) | No ar |
 
 ## Como adicionar um cliente
 1. Criar diretório `nome-do-cliente/` com o `index.html` (arquivo único, links relativos)
