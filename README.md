@@ -14,6 +14,7 @@ Arquivo único de todos os sites de clientes. Cada cliente vive num diretório p
 | **Espaço Renove** (pilates + fisioterapia — Pedreira/SP) | [tiagopolidoro.github.io/sites/espaco-renove/](https://tiagopolidoro.github.io/sites/espaco-renove/) | No ar |
 | **Centro Oftalmológico Jaguariúna** (oftalmologia — Jaguariúna/SP) | [tiagopolidoro.github.io/sites/centro-oftalmologico-jaguariuna/](https://tiagopolidoro.github.io/sites/centro-oftalmologico-jaguariuna/) | No ar |
 | **Julles Cabeleireiro** (cabeleireiro — Pedreira/SP) | [tiagopolidoro.github.io/sites/julles-cabeleireiro/](https://tiagopolidoro.github.io/sites/julles-cabeleireiro/) | No ar |
+| **Studio de Pilates Paula Melo** (pilates — Pedreira/SP) | [tiagopolidoro.github.io/sites/studio-pilates-paula-melo/](https://tiagopolidoro.github.io/sites/studio-pilates-paula-melo/) | No ar |
 
 ## Como adicionar um cliente
 1. Criar diretório `nome-do-cliente/` com o `index.html` (arquivo único, links relativos)
