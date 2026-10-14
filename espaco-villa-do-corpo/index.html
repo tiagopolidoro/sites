@@ -25,7 +25,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 ::selection{background:var(--accsoft);color:var(--ink)}
-body{font-family:var(--sans);background:var(--bg);color:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;font-synthesis:none;overflow-x:hidden;overflow-x:clip}
+body{font-family:var(--sans);background:var(--bg) url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22240%22%20height%3D%22240%22%3E%3Cg%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cg%20stroke%3D%22%2311344e%22%20stroke-opacity%3D%22.11%22%20stroke-width%3D%222.4%22%20transform%3D%22translate%2852%2C50%29%22%3E%3Cpath%20d%3D%22M0-18C8-8%208%204%200%2010C-8%204-8-8%200-18Z%22/%3E%3Cpath%20d%3D%22M-20%208C-26-4-14-16-2-6C-10%202-16%206-20%208Z%22/%3E%3Cpath%20d%3D%22M20%208C26-4%2014-16%202-6C10%202%2016%206%2020%208Z%22/%3E%3Cpath%20d%3D%22M-26%2013C-12%2021%2012%2021%2026%2013%22/%3E%3C/g%3E%3Cg%20stroke%3D%22%2311344e%22%20stroke-opacity%3D%22.11%22%20stroke-width%3D%222.4%22%20transform%3D%22translate%28178%2C66%29%22%3E%3Ccircle%20r%3D%2216%22/%3E%3Cpath%20d%3D%22M0-23v6M0%2023v-6%22%20stroke-width%3D%225%22/%3E%3C/g%3E%3Cg%20stroke%3D%22%2311344e%22%20stroke-opacity%3D%22.11%22%20stroke-width%3D%222.4%22%20transform%3D%22translate%2858%2C176%29%22%3E%3Ccircle%20cy%3D%22-17%22%20r%3D%225.5%22/%3E%3Cpath%20d%3D%22M-14%2014C-8-4%208-4%2014%2014%22/%3E%3Cpath%20d%3D%22M-17%2014H17%22/%3E%3C/g%3E%3Cg%20stroke%3D%22%237fb6c9%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%222.4%22%20transform%3D%22translate%28168%2C172%29%22%3E%3Cpath%20d%3D%22M-28%200C-19-7-10-7%200%200C10%207%2019%207%2028%200%22/%3E%3Cpath%20d%3D%22M-28%209C-19%202-10%202%200%209C10%2016%2019%2016%2028%209%22/%3E%3Cpath%20d%3D%22M-28%2018C-19%2011-10%2011%200%2018C10%2025%2019%2025%2028%2018%22/%3E%3C/g%3E%3Cg%20stroke%3D%22%2311344e%22%20stroke-opacity%3D%22.11%22%20stroke-width%3D%222.4%22%20transform%3D%22translate%28126%2C120%29%20rotate%28-14%29%22%3E%3Ccircle%20cy%3D%22-20%22%20r%3D%224.5%22/%3E%3Cpath%20d%3D%22M0-14V12%22/%3E%3Cpath%20d%3D%22M0-8C7-10%2012-15%2013-21%22/%3E%3Cpath%20d%3D%22M0-8C-7-10-12-15-13-21%22/%3E%3Cpath%20d%3D%22M-4%2014l-4%205M4%2014l4%205%22/%3E%3C/g%3E%3Cg%20stroke%3D%22%237fb6c9%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%222%22%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%22114%22%20r%3D%223%22/%3E%3Ccircle%20cx%3D%22216%22%20cy%3D%22130%22%20r%3D%222.2%22/%3E%3Ccircle%20cx%3D%22132%22%20cy%3D%2212%22%20r%3D%222.6%22/%3E%3Ccircle%20cx%3D%22110%22%20cy%3D%22230%22%20r%3D%222%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2280%22%20cy%3D%2230%22%20r%3D%222.6%22%20fill%3D%22%23c95f45%22%20fill-opacity%3D%22.42%22/%3E%3C/g%3E%3C/svg%3E") repeat;background-size:240px auto;color:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased;font-synthesis:none;overflow-x:hidden;overflow-x:clip}
 img{display:block;max-width:100%}
 a{color:inherit}
 section[id]{scroll-margin-top:96px}
@@ -62,8 +62,8 @@ header{position:sticky;top:0;z-index:50;background:rgba(244,238,226,.85);backdro
 /* ============ HERO ============ */
 .hero{position:relative;padding:84px 0 30px;overflow:hidden}
 .deco{position:absolute;z-index:0;pointer-events:none}
-.deco.d1{width:560px;height:560px;top:-130px;right:-90px;opacity:.5}
-.deco.d2{width:430px;height:430px;bottom:-110px;left:-130px;opacity:.2}
+.deco.d1{width:560px;height:560px;top:-130px;right:-90px;opacity:.55}
+.deco.d2{width:430px;height:430px;bottom:-110px;left:-130px;opacity:.32}
 .aurora{position:absolute;z-index:0;pointer-events:none;filter:blur(70px)}
 .hero .aurora.a1{width:1000px;height:620px;top:-220px;left:22%;
   background:radial-gradient(420px 420px at 32% 45%,rgba(127,182,201,.26),transparent 70%),
@@ -302,18 +302,41 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:72px 0 34p
 <section class="hero" id="inicio">
   <div class="deco d1" aria-hidden="true">
     <svg width="100%" height="100%" viewBox="0 0 560 560" fill="none">
-      <path d="M60 340C130 180 250 100 500 60" stroke="#7fb6c9" stroke-width="1.6"/>
-      <path d="M80 360C150 210 260 130 495 95" stroke="#7fb6c9" stroke-width="1.3"/>
-      <path d="M100 385C170 240 280 165 490 130" stroke="#11344e" stroke-width="1.4"/>
-      <path d="M120 415C190 275 300 200 485 168" stroke="#11344e" stroke-width="1.2"/>
-      <circle cx="500" cy="60" r="6" fill="#c95f45"/>
-      <circle cx="490" cy="130" r="3.5" fill="#c95f45"/>
+      <g transform="translate(330,255) scale(4)" stroke="#11344e" stroke-width=".62" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0-18C8-8 8 4 0 10C-8 4-8-8 0-18Z"/>
+        <path d="M-20 8C-26-4-14-16-2-6C-10 2-16 6-20 8Z"/>
+        <path d="M20 8C26-4 14-16 2-6C10 2 16 6 20 8Z"/>
+        <path d="M-26 13C-12 21 12 21 26 13"/>
+      </g>
+      <g transform="translate(175,150) rotate(-14)" stroke="#11344e" stroke-width="1.5" stroke-linecap="round">
+        <circle cy="-20" r="4.5"/>
+        <path d="M0-14V12"/>
+        <path d="M0-8C7-10 12-15 13-21"/>
+        <path d="M0-8C-7-10-12-15-13-21"/>
+        <path d="M-4 14l-4 5M4 14l4 5"/>
+      </g>
+      <g transform="translate(475,120)" stroke="#7fb6c9" stroke-width="1.5">
+        <circle r="16"/><path d="M0-23v6M0 23v-6" stroke-width="3"/>
+      </g>
+      <g stroke="#7fb6c9" stroke-width="1.4">
+        <circle cx="300" cy="58" r="6"/><circle cx="442" cy="212" r="4"/><circle cx="248" cy="332" r="5"/>
+      </g>
+      <circle cx="408" cy="382" r="5" fill="#c95f45"/>
     </svg>
   </div>
   <div class="deco d2" aria-hidden="true">
     <svg width="100%" height="100%" viewBox="0 0 560 560" fill="none">
-      <path d="M40 480C200 460 420 380 520 200" stroke="#11344e" stroke-width="1.4"/>
-      <path d="M60 510C220 490 430 410 530 240" stroke="#c95f45" stroke-width="1.6" stroke-dasharray="2 8"/>
+      <g transform="translate(205,185) scale(2.6)" stroke="#7fb6c9" stroke-width=".9" stroke-linecap="round">
+        <path d="M-28 0C-19-7-10-7 0 0C10 7 19 7 28 0"/>
+        <path d="M-28 9C-19 2-10 2 0 9C10 16 19 16 28 9"/>
+        <path d="M-28 18C-19 11-10 11 0 18C10 25 19 25 28 18"/>
+      </g>
+      <g transform="translate(330,118) scale(1.8)" stroke="#11344e" stroke-width="1.2" stroke-linecap="round">
+        <circle cy="-17" r="5.5"/><path d="M-14 14C-8-4 8-4 14 14"/><path d="M-17 14H17"/>
+      </g>
+      <g stroke="#7fb6c9" stroke-width="1.3">
+        <circle cx="150" cy="88" r="4"/><circle cx="262" cy="262" r="3"/>
+      </g>
     </svg>
   </div>
   <div class="aurora a1" aria-hidden="true"></div>
